@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+li{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+ nav .logo{
+    font-weight: 700;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 20px 0;
+    border: 1px solid black;
+    box-shadow:color(from black srgb r g b);
+ }
+
+ nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px  ;
+    font-weight: 300 ;
+ }
+
+ nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    
+ }
+
+ .Search-section{
+    display: flex;
+    gap: 35px;
+ }
+
+ input{
+    padding: 4px 10px;
+ }
+
+ .Hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+ }
+
+ .hero-section-left h1 {
+     
+    /* margin: 20px; */
+     font-weight: 700;
+ }
+
+ .hero-section-left h1 span {
+    color: rgb(10, 155, 155) ;
+    font-weight: 900;
+    font-size: 2.5 rem;
+    font-weight: 700;
+    font-size: 35px;
+ }
+
+ .hero-section-left p{
+    font-weight: 500;
+ }
+
+ .hero-section-left p span {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(10, 155, 155);
+ }
+
+ .hero-section-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    /* gap: 30px; */
+ }
+
+ .hero-section-right-button{
+    display: flex;
+    align-items: center;
+    gap: 30px  ;
+ }
+
+ .hero-section-right img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+ }
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+footer p{
+    font-weight: 600;
+}
+
+footer ul{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    text-shadow: rgb(255, 255, 0);
+    color: #0000ff;
+    size: 20px;
+}
+
+footer ul li a i:hover{
+    color: #ff0000;
+    animation-delay: 2s;
+}

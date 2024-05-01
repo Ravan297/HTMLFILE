@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Simple Forms For User</title>
+    <link rel="stylesheet" href="./Form.css">
+</head>
+<body>
+    <Form method="get" target="_blank" action="/Signing">
+        <Fieldset>
+            <legend>User Details!!</legend>
+            <label for="First Name">First Name:</label>
+            <input type="text" id="First Name" name="User Name" placeholder="Rohit">
+            <br>
+            <label for="Last Name"> Last Name:</label>
+            <input type="text" id="Last Name" name="User Name" placeholder="Tiwari">
+            <br>
+            <label for="DOB">Enter Your DOB:</label>
+            <input type="date" id="DOB" name="User DOB">
+            <br>
+            <label for="password">Enter Your Password:</label>
+            <input type="password" id="Password" name="User Password" placeholder="Password" autofocus>
+            <br>
+            Sellect Your Gender:
+            <br>
+
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="User Gender">
+            
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="User Gender">
+           
+            <label for="Common">Common</label>
+            <input type="radio" id="Common" name="User Gender">
+            <br>
+            <label for="E-Mail">Enter Your E-Mail:</label>
+            <input type="email" id="E-Mail" name="User E-Mail" placeholder="Rohit.t@gmail.com">
+            <br>
+            <label for="Address">Enter Your Address:</label>
+            <textarea id="Address" ></textarea>
+            <br>
+            Sellect Your Fevorite Movies: <br>
+            <label for="Ranayana">Ranayana</label>
+            <input type="checkbox" name="Ranayana" id="Ranayana">
+            <label for="Shri Krishna">Shri Krishna</label>
+            <input type="checkbox" name="Shri Krishna" id="Shri Krishna">
+            <label for="Mahabharat">Mahabharat</label>
+            <input type="checkbox" name="Mahabharat" id="Mahabharat">
+            <br>
+            <input type="number" min="0" max="9">
+
+            <br>
+            <input type="Submit" value="Submit Form">
+
+           
+
+
+
+        </Fieldset>
+    </Form>
+</body>
+</html>

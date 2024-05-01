@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    text-decoration: none;
+    margin: 0 5%;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Section-main{
+    text-align: center;
+}
+
+.Project{
+    font-weight: 700;
+    text-decoration: underline blue solid;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+
+
+
+.div-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.left-hand{
+    display: flex;
+    align-items: end;
+    margin-left: 22%;
+    margin-bottom: 2%;
+}
+
+.hand{
+    size: 20px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+    color: rgb(205, 255, 98);
+}
+
+h3{
+    font-size: 35px;
+}
+
+.bottom-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact{
+    font-weight: 700;
+    text-decoration: underline blue solid;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    
+}
+
+.bottom-main{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+
+@media screen and (max-width: 576px){
+    nav ul{
+        display: none;
+    }
+    img[alt="menu"]{
+        display: block;
+    }
+    .Section-main{
+       
+        flex-wrap: wrap;
+    }
+    .div-main{
+        flex-direction: column;
+    }
+    .bottom-main{
+        flex-direction: column;
+        
+    }
+}
+@media screen and (min-width: 576px) and (max-width:720px){
+    nav ul{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width:1080px){
+    .hambrger-icon{
+        display: none;
+    }
+    nav ul{
+        margin-left: 65%;
+    }
+    
+}
+@media screen and (min-width: 1080px) and (max-width:1440px){
+    .hambrger-icon{
+        display: none;
+    }
+    nav ul{
+        margin-left: 80%;
+    }
+    
+}

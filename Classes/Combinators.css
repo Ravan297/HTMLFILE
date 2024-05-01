@@ -1,0 +1,35 @@
+/* body{
+    background-color:black
+} */
+
+
+/* Desendent selector */
+
+main p{
+    color: yellow;
+}
+
+/* Child Selector */
+h1 > p{
+    color: red;
+}
+
+/* Adjacent Sibling Selector */
+section + p {
+    color: blue;
+}
+
+/* General Sibling Selector */
+section ~ p {
+    color: pink;
+}
+
+/* Attributes Seloctor */
+[target="_blank"] {
+            color: green;
+            text-decoration: none;
+}
+
+[alt="LWR"] {
+    background-color: black;
+}

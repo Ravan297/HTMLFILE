@@ -1,0 +1,36 @@
+/* Universal Selectore */
+*{
+    margin: 1%;
+    padding: 0%;
+    background-color: white;
+    padding: Center;
+    text-align:justify
+    ;
+
+
+}
+
+/* Element Selector */
+h3 {
+    color: blue;
+    size: 38px;
+    text-underline-offset: black;
+    
+}
+
+/* Class Selector */
+.pra{
+    color: red;
+
+}
+.hello{
+    color: black;
+    size: 38px;
+    align-items: center;
+}
+
+/* ID Selector */
+#ID1{
+    color: white;
+    background-color: black;
+}
